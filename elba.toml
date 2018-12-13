@@ -1,0 +1,13 @@
+[package]
+name = "elba/path"
+version = "0.1.0"
+authors = ["David Cao <david@cao.st>"]
+
+[dependencies]
+
+[targets.lib]
+path = "src"
+mods = [
+    "Path"
+]
+
